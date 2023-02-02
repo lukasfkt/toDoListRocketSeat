@@ -1,0 +1,93 @@
+.toDoListContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem;
+  flex-direction: column;
+}
+
+.headerToDoList {
+  display: flex;
+  width: 51%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.createdTasksContainer,
+.finishedTasksContainer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.createdTasksContainer h3 {
+  color: var(--blue);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.finishedTasksContainer h3 {
+  color: var(--purple);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.createdTasksContainer span,
+.finishedTasksContainer span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 1rem;
+  padding: 0.125rem 0.5rem;
+}
+
+section {
+  width: 51%;
+}
+
+.noItems {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-top: 1px solid var(--gray-300);
+  border-radius: 0.5rem;
+  padding: 4rem;
+  transition: all 0.3s linear;
+}
+
+.toDoListItems {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  transition: all 0.3s linear;
+}
+
+.notFoundTexts {
+  text-align: center;
+}
+
+.notFoundTexts p:first-child {
+  line-height: 1.4rem;
+  font-weight: 700;
+}
+
+.notFoundTexts p:last-child {
+  line-height: 1.4rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 798px) {
+  .headerToDoList,
+  section {
+    width: 80%;
+  }
+}

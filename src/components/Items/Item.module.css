@@ -1,0 +1,38 @@
+.itemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.itemContainer input {
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+  border-radius: 50%;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  background-color: var(--gray-400);
+  outline: 1px solid var(--blue);
+}
+
+.itemContainer input:checked {
+  background-color: var(--purple-dark);
+  outline: 1px solid var(--purple-dark) !important;
+}
+
+.itemContainer button {
+  all: unset;
+  cursor: pointer;
+}
+
+.itemText {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 140%;
+  max-width: 85%;
+}

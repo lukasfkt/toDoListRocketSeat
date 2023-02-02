@@ -1,0 +1,32 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-700);
+
+  width: 100%;
+  height: 12.5rem;
+}
+
+.todoContainer {
+  display: flex;
+  align-items: center;
+  margin-top: -0.25rem;
+}
+
+.todoContainer span {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.todoContainer span:first-of-type {
+  color: var(--blue);
+}
+
+.todoContainer span:last-of-type {
+  color: var(--purple-dark);
+}
+
+.todoContainer img {
+  margin-right: 0.75rem;
+}
