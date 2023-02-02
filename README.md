@@ -13,3 +13,5 @@ https://efficient-sloth-d85.notion.site/Desafio-01-Praticando-os-conceitos-do-Re
 https://www.figma.com/file/0n0zDN7zbzhRbaEO74Xesx/ToDo-List/duplicate
   </li>
 </ul>
+
+<p><b>OBS: </b> Foi utilizado o local storage do navegador para armazenar a lista de afazeres.</p>
